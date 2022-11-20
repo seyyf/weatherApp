@@ -4,4 +4,33 @@
 
 .App {
   text-align: center;
+  padding: 2rem;
+}
+.swiper-slide-next {
+  filter: opacity(1) !important;
+  width: 200px !important;
+  height: 300px !important;
+  margin-bottom: 5px;
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color),
+    0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  translate: all 2s;
+}
+.swiper-slide {
+  filter: opacity(0.6);
+  width: auto;
+  height: auto;
+  margin-bottom: 0px;
+}
+
+.barChart svg rect {
+  fill: #007aff !important;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.barChart svg g {
+  fill: black !important;
 }
